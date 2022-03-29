@@ -1,0 +1,17 @@
+.navbar-logo img {
+  width: 100px;
+}
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-menu ul {
+  display: flex;
+  list-style: none;
+}
+.navbar-menu ul li {
+  margin-right: 20px;
+}
+.navbar-menu {
+  margin-top: 20px;
+}
