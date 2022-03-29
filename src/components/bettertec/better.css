@@ -1,0 +1,23 @@
+.podcast-wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+.podcast-img img {
+  width: 500px;
+}
+.strong-partner {
+  display: flex;
+  margin-top: 30px;
+}
+.short {
+  margin-left: 10px;
+}
+.strong-img {
+  display: contents;
+}
+h3 {
+  margin: 0%;
+}
+p {
+  margin: 0%;
+}

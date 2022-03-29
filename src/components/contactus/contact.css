@@ -1,0 +1,11 @@
+.contact-main {
+  display: flex;
+  justify-content: space-around;
+}
+.pic-txt {
+  display: flex;
+}
+.form-logo {
+  display: flex;
+  flex-direction: column;
+}

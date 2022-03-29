@@ -1,0 +1,16 @@
+.copyright-main {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-links ul {
+  display: flex;
+}
+.copyright-links ul li {
+  margin-left: 30px;
+}
+a {
+  text-decoration: none;
+}
+.copyright-text {
+  list-style: none;
+}

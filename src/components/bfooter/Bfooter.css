@@ -1,0 +1,11 @@
+.bFooter-main {
+  display: flex;
+  justify-content: space-around;
+}
+.servicess,
+.solution,
+.technology,
+.fcontact {
+  display: flex;
+  flex-direction: column;
+}
