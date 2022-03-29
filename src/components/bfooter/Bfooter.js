@@ -5,7 +5,7 @@ export default function Bfooter() {
   return (
     <>
       <div className="bfooter-wrapper">
-        <div className="bFooter-main">
+        <div className="bFooter-main container">
           <div className="servicess">
             <div className="service-headinds">
               <h5>Services</h5>
@@ -93,6 +93,7 @@ export default function Bfooter() {
               href="mailto:services@tkxel.com"
               target="_blank"
               rel="noopener"
+              className="special-blue"
             >
               services@tkxel.com
             </a>
@@ -112,13 +113,11 @@ export default function Bfooter() {
             </h3>
             <div className="cities">
               <ul>
-                {" "}
                 <li>London</li> <li>Seattle</li> <li>Boston</li>{" "}
-              </ul>{" "}
+              </ul>
               <ul>
-                {" "}
                 <li>Poland</li> <li>Lahore</li> <li>Dubai</li>{" "}
-              </ul>{" "}
+              </ul>
             </div>
           </div>
         </div>

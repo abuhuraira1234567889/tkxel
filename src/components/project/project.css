@@ -1,7 +1,23 @@
+.project-wrapper {
+  margin: 100px 100px;
+}
+
 .project-main {
   display: flex;
   justify-content: space-evenly;
 }
 .team-service {
   display: flex;
+}
+.build-team {
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  padding: 150px 15px;
+}
+.fixed-price {
+  padding: 150px 15px;
+  background: #13202d;
+  color: #fff;
+  z-index: 1;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }

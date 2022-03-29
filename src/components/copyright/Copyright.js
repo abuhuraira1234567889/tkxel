@@ -4,7 +4,7 @@ import "./copyright.css";
 export default function Copyright() {
   return (
     <>
-      <div className="copyright-wrapper">
+      <div className="copyright-wrapper container">
         <hr />
         <div className="copyright-main">
           <div className="copyright-links">

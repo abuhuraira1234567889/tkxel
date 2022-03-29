@@ -2,12 +2,29 @@
   display: flex;
   justify-content: space-evenly;
 }
+.better-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
 .podcast-img img {
-  width: 500px;
+  width: 600px;
+  cursor: pointer;
 }
 .strong-partner {
   display: flex;
-  margin-top: 30px;
+
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 30px;
+  background-color: #fff;
+  margin-bottom: 28px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: 0.6s all ease;
+  color: #212529;
 }
 .short {
   margin-left: 10px;

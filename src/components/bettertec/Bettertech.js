@@ -4,7 +4,7 @@ import "./better.css";
 export default function Bettertech() {
   return (
     <>
-      <div className="better-wrapper">
+      <div className="better-wrapper container">
         <div className="better-head">
           <h4>BetterTech Podcast</h4>
           <h5>VIEW ALL EPISOD</h5>

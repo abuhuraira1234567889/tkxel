@@ -1,0 +1,27 @@
+.header-solution {
+  position: absolute;
+  top: 50%;
+}
+.header-solution h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+  line-height: 54px;
+}
+.header-solution p {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+.header-solution button {
+  color: #fff;
+  background: #2569e6;
+  padding: 10px 24px;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: none;
+}

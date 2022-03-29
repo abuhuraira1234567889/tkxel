@@ -1,6 +1,10 @@
+.bfooter-wrapper {
+  margin-top: 100px;
+}
+
 .bFooter-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .servicess,
 .solution,
@@ -8,4 +12,24 @@
 .fcontact {
   display: flex;
   flex-direction: column;
+}
+.servicess a,
+.solution a,
+.technology a,
+.fcontact a {
+  color: black;
+  margin-top: 10px;
+}
+.special-blue {
+  color: blue !important;
+}
+.cities ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0%;
+  margin-bottom: 0%;
+}
+.fcontact h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

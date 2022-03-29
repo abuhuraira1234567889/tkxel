@@ -7,25 +7,29 @@ export default function Project() {
       <div className="project-wrapper">
         <div className="project-main">
           <div className="build-team">
-            <div className="dedicated-team">
-              <h2>Build Your Dedicated team</h2>
-            </div>
-            <div className="team-service">
-              <div className="team-text">
-                <h4>Our Team at your service</h4>
-                <p>
-                  Get your projects fast-tracked with best technical and <br />
-                  management talent. Increase quality and efficiency, and retain
-                  <br />
-                  complete control of teams
-                </p>
-                <button>Build Your team</button>
+            <div className="build-txt">
+              <div className="dedicated-team">
+                <h2>Build Your Dedicated team</h2>
               </div>
-              <div className="team-img">
-                <img
-                  alt="Dedicated Teams"
-                  src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnhobiTmmCkBXBUPd/assets/static/optimized/rev-5a0369c/wp-content/themes/tkxel/assets/images/embd-dt-placeholder.webp"
-                />
+              <div className="team-service">
+                <div className="team-text">
+                  <h4>Our Team at your service</h4>
+                  <p>
+                    Get your projects fast-tracked with best technical and{" "}
+                    <br />
+                    management talent. Increase quality and efficiency, and
+                    retain
+                    <br />
+                    complete control of teams
+                  </p>
+                  <button>Build Your team</button>
+                </div>
+                <div className="team-img">
+                  <img
+                    alt="Dedicated Teams"
+                    src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnhobiTmmCkBXBUPd/assets/static/optimized/rev-5a0369c/wp-content/themes/tkxel/assets/images/embd-dt-placeholder.webp"
+                  />
+                </div>
               </div>
             </div>
           </div>

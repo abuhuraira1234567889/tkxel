@@ -14,3 +14,12 @@ a {
 .copyright-text {
   list-style: none;
 }
+.copyrights-menu {
+  padding-left: 0%;
+}
+.copyrights-menu li a {
+  color: black;
+}
+.copyright-logo a {
+  margin-left: 20px;
+}
