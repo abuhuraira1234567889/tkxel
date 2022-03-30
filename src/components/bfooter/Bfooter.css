@@ -5,6 +5,7 @@
 .bFooter-main {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .servicess,
 .solution,
@@ -12,6 +13,8 @@
 .fcontact {
   display: flex;
   flex-direction: column;
+
+  margin-top: 50px;
 }
 .servicess a,
 .solution a,
@@ -32,4 +35,20 @@
 .fcontact h3 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .servicess,
+  .solution,
+  .technology,
+  .fcontact {
+    width: 50%;
+  }
+}
+@media (max-width: 498px) {
+  .servicess,
+  .solution,
+  .technology,
+  .fcontact {
+    width: 100%;
+  }
 }

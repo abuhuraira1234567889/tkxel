@@ -41,7 +41,7 @@ export default function Contactus() {
                 <div className="input-mail">
                   <input
                     type="text"
-                    size="40"
+                    size="35"
                     aria-required="true"
                     placeholder="Name"
                   />
@@ -56,7 +56,9 @@ export default function Contactus() {
                 </div>
                 <div className="phone">
                   <input
+                    className="phone-no"
                     type="number"
+                    size="50"
                     aria-required="true"
                     aria-invalid="false"
                     placeholder="Phone"
@@ -64,7 +66,7 @@ export default function Contactus() {
                   <input
                     className="left-mail"
                     type="text"
-                    size="40"
+                    size="50"
                     placeholder="Organization"
                   ></input>
                 </div>
@@ -86,9 +88,15 @@ export default function Contactus() {
               </form>
             </div>
             <div className="form-logo">
-              <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnhobiTmmCkBXBUPd/assets/static/optimized/rev-5a0369c/wp-content/themes/tkxel/assets/images/salesforce/sf-clutch--black.svg" />
+              <img
+                className="form-imges"
+                src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnhobiTmmCkBXBUPd/assets/static/optimized/rev-5a0369c/wp-content/themes/tkxel/assets/images/salesforce/sf-clutch--black.svg"
+              />
 
-              <img src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnhobiTmmCkBXBUPd/assets/static/optimized/rev-5a0369c/wp-content/themes/tkxel/assets/images/el-goodfirms.svg" />
+              <img
+                className="form-imges"
+                src="https://cdn-ddddj.nitrocdn.com/NSvsNMzbKkQslXvZnhobiTmmCkBXBUPd/assets/static/optimized/rev-5a0369c/wp-content/themes/tkxel/assets/images/el-goodfirms.svg"
+              />
               <hr />
               <div className="pic-txt">
                 <div className="img">
