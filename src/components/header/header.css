@@ -25,3 +25,25 @@
   font-size: 13px;
   border: none;
 }
+
+@media (min-width: 900px) {
+  .header-logo {
+    margin-top: 7%;
+    flex-wrap: nowrap;
+  }
+  .header-logo svg {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-logo {
+    display: none;
+  }
+}
+@media (max-width: 1265px) {
+  .header-logo svg {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+}

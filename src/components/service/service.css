@@ -1,6 +1,43 @@
-.cards {
-  display: flex;
+.service-col-txt {
+  padding: 30px;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+
+  max-height: 100%;
+  margin-top: 20px;
+  cursor: pointer;
 }
-.dedicated-team {
-  width: 50%;
+
+.services-wrapper {
+  margin-top: 60px;
+}
+.service-col-txt h4 {
+  font-size: 18px;
+  margin-top: 20px;
+
+  color: #14212d;
+  transition: 0.2s all;
+}
+.service-col-txt:hover {
+  border: 1px solid blue;
+}
+
+.services-offer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.service-btn {
+  display: flex;
+  justify-content: center;
+}
+.services-wrapper button {
+  color: #fff;
+  background: #2569e6;
+  padding: 10px 24px;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 50px;
 }
